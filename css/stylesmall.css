@@ -217,6 +217,23 @@ content{
     justify-self: center;
 }
 
+.comparison{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-items: center;
+    justify-items: center;
+}
+
+.comparison div{
+    width: 75%;
+}
+
+.comparison div img{
+    max-width: 100%;
+    border: 5px solid rgb(253, 31, 205);
+}
+
 footer{
     grid-column: f;
     justify-self: center;

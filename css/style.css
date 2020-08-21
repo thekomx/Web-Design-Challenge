@@ -247,6 +247,27 @@ content{
     margin:  10px 10px auto auto;
 }
 
+.comparison{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    justify-items: center;
+}
+
+.comparison div{
+    width: 50%;
+}
+
+.comparison div img{
+    max-width: 100%;
+    border: 5px solid rgb(253, 31, 205);
+}
+
+.comparison div img:hover{
+    transform: scale(1.2);
+}
+
 footer{
     grid-column: f;
     justify-self: center;
